@@ -1,0 +1,24 @@
+[project]
+name = "delivery-route-env"
+version = "1.0.0"
+description = "Delivery Route Optimization Environment for OpenEnv"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "numpy>=1.24.0",
+    "pydantic>=2.0.0",
+    "python-json-logger>=2.0.0",
+    "geopy>=2.4.0",
+    "httpx>=0.25.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+]
+
+[tool.openenv]
+entrypoint = "server.app:app"
+port = 7860

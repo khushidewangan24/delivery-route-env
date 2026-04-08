@@ -1,0 +1,65 @@
+name: Delivery Route Optimization
+description: A realistic delivery route adjustment environment where agents must optimize delivery routes considering traffic, time windows, and vehicle capacity
+version: 1.0.0
+author: Your Name
+tags:
+  - logistics
+  - route-optimization
+  - real-world
+  - partial-rewards
+license: MIT
+
+# Environment configuration
+config:
+  # Default difficulty level
+  difficulty: medium
+  
+  # Action space definition
+  action_space:
+    type: discrete
+    n: 8  # 8 possible actions: next customer, wait, skip, etc.
+    
+  # Observation space definition  
+  observation_space:
+    type: dict
+    properties:
+      current_location:
+        type: array
+        items: 2
+        description: [latitude, longitude]
+      remaining_stops:
+        type: array
+        description: List of remaining delivery locations with their details
+      current_time:
+        type: float
+        description: Current time in minutes from start
+      vehicle_capacity:
+        type: float
+        description: Remaining vehicle capacity in kg
+      traffic_level:
+        type: float
+        description: Current traffic congestion level (0-1)
+      pending_deliveries:
+        type: integer
+        description: Number of deliveries still pending
+        
+  # Reward configuration
+  reward_range: [-100, 100]
+  
+  # Difficulty presets
+  difficulties:
+    easy:
+      num_customers: 5
+      traffic_factor: 0.3
+      time_window_strictness: 0.2
+      max_capacity: 1000
+    medium:
+      num_customers: 12
+      traffic_factor: 0.6
+      time_window_strictness: 0.5
+      max_capacity: 800
+    hard:
+      num_customers: 20
+      traffic_factor: 0.9
+      time_window_strictness: 0.8
+      max_capacity: 600
