@@ -1,0 +1,70 @@
+{
+    "warehouse": {
+        "lat": 40.7128,
+        "lon": -74.0060,
+        "name": "NYC Distribution Center"
+    },
+    "customers": [
+        {
+            "id": "easy_1",
+            "name": "Corner Bakery",
+            "lat": 40.7580,
+            "lon": -73.9855,
+            "weight": 25.5,
+            "time_window_start": 30,
+            "time_window_end": 90,
+            "priority": 2,
+            "address": "123 Broadway, New York, NY"
+        },
+        {
+            "id": "easy_2",
+            "name": "City Hospital Pharmacy",
+            "lat": 40.7527,
+            "lon": -73.9772,
+            "weight": 45.0,
+            "time_window_start": 45,
+            "time_window_end": 120,
+            "priority": 5,
+            "address": "456 Park Ave, New York, NY"
+        },
+        {
+            "id": "easy_3",
+            "name": "Downtown Office Supplies",
+            "lat": 40.7061,
+            "lon": -74.0089,
+            "weight": 30.0,
+            "time_window_start": 60,
+            "time_window_end": 150,
+            "priority": 3,
+            "address": "789 Wall Street, New York, NY"
+        },
+        {
+            "id": "easy_4",
+            "name": "Riverside Cafe",
+            "lat": 40.7282,
+            "lon": -74.0048,
+            "weight": 15.5,
+            "time_window_start": 90,
+            "time_window_end": 180,
+            "priority": 1,
+            "address": "321 Hudson St, New York, NY"
+        },
+        {
+            "id": "easy_5",
+            "name": "Tech Hub Co-working",
+            "lat": 40.7489,
+            "lon": -73.9926,
+            "weight": 20.0,
+            "time_window_start": 120,
+            "time_window_end": 200,
+            "priority": 4,
+            "address": "567 7th Ave, New York, NY"
+        }
+    ],
+    "metadata": {
+        "difficulty": "easy",
+        "total_weight": 136.0,
+        "vehicle_capacity": 1000,
+        "traffic_factor": 0.3
+    }
+}
