@@ -1,0 +1,135 @@
+{
+    "warehouse": {
+        "lat": 40.7128,
+        "lon": -74.0060,
+        "name": "NYC Distribution Center"
+    },
+    "customers": [
+        {
+            "id": "med_1",
+            "name": "Grand Central Pharmacy",
+            "lat": 40.7527,
+            "lon": -73.9772,
+            "weight": 35.0,
+            "time_window_start": 20,
+            "time_window_end": 60,
+            "priority": 5
+        },
+        {
+            "id": "med_2",
+            "name": "Empire State Office",
+            "lat": 40.7484,
+            "lon": -73.9857,
+            "weight": 40.0,
+            "time_window_start": 40,
+            "time_window_end": 80,
+            "priority": 3
+        },
+        {
+            "id": "med_3",
+            "name": "Chelsea Market",
+            "lat": 40.7420,
+            "lon": -74.0048,
+            "weight": 25.0,
+            "time_window_start": 60,
+            "time_window_end": 110,
+            "priority": 2
+        },
+        {
+            "id": "med_4",
+            "name": "Wall Street Financial",
+            "lat": 40.7074,
+            "lon": -74.0113,
+            "weight": 50.0,
+            "time_window_start": 80,
+            "time_window_end": 130,
+            "priority": 4
+        },
+        {
+            "id": "med_5",
+            "name": "SoHo Boutique",
+            "lat": 40.7233,
+            "lon": -74.0030,
+            "weight": 15.0,
+            "time_window_start": 100,
+            "time_window_end": 160,
+            "priority": 1
+        },
+        {
+            "id": "med_6",
+            "name": "Upper East Medical",
+            "lat": 40.7736,
+            "lon": -73.9566,
+            "weight": 30.0,
+            "time_window_start": 120,
+            "time_window_end": 180,
+            "priority": 5
+        },
+        {
+            "id": "med_7",
+            "name": "Harlem Community Center",
+            "lat": 40.8116,
+            "lon": -73.9465,
+            "weight": 20.0,
+            "time_window_start": 140,
+            "time_window_end": 200,
+            "priority": 3
+        },
+        {
+            "id": "med_8",
+            "name": "Brooklyn Heights Cafe",
+            "lat": 40.6957,
+            "lon": -73.9936,
+            "weight": 18.0,
+            "time_window_start": 160,
+            "time_window_end": 220,
+            "priority": 2
+        },
+        {
+            "id": "med_9",
+            "name": "Queens Distribution",
+            "lat": 40.7282,
+            "lon": -73.7949,
+            "weight": 45.0,
+            "time_window_start": 180,
+            "time_window_end": 240,
+            "priority": 4
+        },
+        {
+            "id": "med_10",
+            "name": "Bronx Warehouse",
+            "lat": 40.8448,
+            "lon": -73.8648,
+            "weight": 60.0,
+            "time_window_start": 200,
+            "time_window_end": 270,
+            "priority": 3
+        },
+        {
+            "id": "med_11",
+            "name": "Staten Island Ferry",
+            "lat": 40.6437,
+            "lon": -74.0721,
+            "weight": 22.0,
+            "time_window_start": 220,
+            "time_window_end": 290,
+            "priority": 2
+        },
+        {
+            "id": "med_12",
+            "name": "JFK Airport Cargo",
+            "lat": 40.6413,
+            "lon": -73.7781,
+            "weight": 55.0,
+            "time_window_start": 240,
+            "time_window_end": 310,
+            "priority": 5
+        }
+    ],
+    "metadata": {
+        "difficulty": "medium",
+        "total_weight": 415.0,
+        "vehicle_capacity": 800,
+        "traffic_factor": 0.6
+    }
+}

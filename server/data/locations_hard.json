@@ -1,0 +1,215 @@
+{
+    "warehouse": {
+        "lat": 40.7128,
+        "lon": -74.0060,
+        "name": "NYC Distribution Center"
+    },
+    "customers": [
+        {
+            "id": "hard_1",
+            "name": "Times Square Emergency",
+            "lat": 40.7580,
+            "lon": -73.9855,
+            "weight": 15.0,
+            "time_window_start": 10,
+            "time_window_end": 30,
+            "priority": 5
+        },
+        {
+            "id": "hard_2",
+            "name": "Central Park Medical",
+            "lat": 40.7829,
+            "lon": -73.9654,
+            "weight": 25.0,
+            "time_window_start": 20,
+            "time_window_end": 50,
+            "priority": 4
+        },
+        {
+            "id": "hard_3",
+            "name": "Lower Manhattan Office",
+            "lat": 40.7074,
+            "lon": -74.0113,
+            "weight": 35.0,
+            "time_window_start": 40,
+            "time_window_end": 70,
+            "priority": 3
+        },
+        {
+            "id": "hard_4",
+            "name": "Williamsburg Art District",
+            "lat": 40.7081,
+            "lon": -73.9571,
+            "weight": 20.0,
+            "time_window_start": 60,
+            "time_window_end": 90,
+            "priority": 2
+        },
+        {
+            "id": "hard_5",
+            "name": "Long Island City Tech",
+            "lat": 40.7447,
+            "lon": -73.9485,
+            "weight": 30.0,
+            "time_window_start": 80,
+            "time_window_end": 120,
+            "priority": 4
+        },
+        {
+            "id": "hard_6",
+            "name": "Astoria Food Service",
+            "lat": 40.7644,
+            "lon": -73.9234,
+            "weight": 40.0,
+            "time_window_start": 100,
+            "time_window_end": 140,
+            "priority": 3
+        },
+        {
+            "id": "hard_7",
+            "name": "Flushing Main Street",
+            "lat": 40.7675,
+            "lon": -73.8331,
+            "weight": 25.0,
+            "time_window_start": 120,
+            "time_window_end": 160,
+            "priority": 5
+        },
+        {
+            "id": "hard_8",
+            "name": "Jamaica Hospital",
+            "lat": 40.7027,
+            "lon": -73.7890,
+            "weight": 50.0,
+            "time_window_start": 140,
+            "time_window_end": 180,
+            "priority": 5
+        },
+        {
+            "id": "hard_9",
+            "name": "Coney Island Boardwalk",
+            "lat": 40.5755,
+            "lon": -73.9707,
+            "weight": 18.0,
+            "time_window_start": 160,
+            "time_window_end": 200,
+            "priority": 2
+        },
+        {
+            "id": "hard_10",
+            "name": "Yankee Stadium",
+            "lat": 40.8296,
+            "lon": -73.9262,
+            "weight": 45.0,
+            "time_window_start": 180,
+            "time_window_end": 220,
+            "priority": 3
+        },
+        {
+            "id": "hard_11",
+            "name": "LaGuardia Airport",
+            "lat": 40.7769,
+            "lon": -73.8740,
+            "weight": 35.0,
+            "time_window_start": 200,
+            "time_window_end": 240,
+            "priority": 4
+        },
+        {
+            "id": "hard_12",
+            "name": "Newark Distribution",
+            "lat": 40.7357,
+            "lon": -74.1724,
+            "weight": 60.0,
+            "time_window_start": 220,
+            "time_window_end": 260,
+            "priority": 3
+        },
+        {
+            "id": "hard_13",
+            "name": "Jersey City Waterfront",
+            "lat": 40.7178,
+            "lon": -74.0431,
+            "weight": 28.0,
+            "time_window_start": 240,
+            "time_window_end": 280,
+            "priority": 2
+        },
+        {
+            "id": "hard_14",
+            "name": "Hoboken Terminal",
+            "lat": 40.7359,
+            "lon": -74.0291,
+            "weight": 22.0,
+            "time_window_start": 260,
+            "time_window_end": 300,
+            "priority": 3
+        },
+        {
+            "id": "hard_15",
+            "name": "Bay Ridge Medical",
+            "lat": 40.6243,
+            "lon": -74.0320,
+            "weight": 32.0,
+            "time_window_start": 280,
+            "time_window_end": 320,
+            "priority": 4
+        },
+        {
+            "id": "hard_16",
+            "name": "Bensonhurst Grocery",
+            "lat": 40.6053,
+            "lon": -73.9929,
+            "weight": 38.0,
+            "time_window_start": 300,
+            "time_window_end": 340,
+            "priority": 2
+        },
+        {
+            "id": "hard_17",
+            "name": "Flatbush Community",
+            "lat": 40.6409,
+            "lon": -73.9592,
+            "weight": 42.0,
+            "time_window_start": 320,
+            "time_window_end": 360,
+            "priority": 3
+        },
+        {
+            "id": "hard_18",
+            "name": "East New York Industrial",
+            "lat": 40.6570,
+            "lon": -73.8807,
+            "weight": 55.0,
+            "time_window_start": 340,
+            "time_window_end": 380,
+            "priority": 4
+        },
+        {
+            "id": "hard_19",
+            "name": "Rockaway Beach",
+            "lat": 40.5865,
+            "lon": -73.8131,
+            "weight": 20.0,
+            "time_window_start": 360,
+            "time_window_end": 400,
+            "priority": 1
+        },
+        {
+            "id": "hard_20",
+            "name": "Throgs Neck Bridge",
+            "lat": 40.8237,
+            "lon": -73.7924,
+            "weight": 48.0,
+            "time_window_start": 380,
+            "time_window_end": 420,
+            "priority": 5
+        }
+    ],
+    "metadata": {
+        "difficulty": "hard",
+        "total_weight": 683.0,
+        "vehicle_capacity": 600,
+        "traffic_factor": 0.9
+    }
+}
